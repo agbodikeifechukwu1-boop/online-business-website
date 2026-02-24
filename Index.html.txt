@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My School Presentation Website</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            color: #333;
+        }
+
+        header {
+            background: #0d6efd;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background: #084298;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 30px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            background: #0d6efd;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>My Online Presentation</h1>
+    <p>Created using AI & HTML</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#content">Main Content</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <div class="card">
+        <h2>About This Website</h2>
+        <p>
+            This website was created as a class presentation using Artificial Intelligence
+            and basic web technologies like HTML and CSS.
+        </p>
+    </div>
+</section>
+
+<section id="content">
+    <div class="card">
+        <h2>Main Topic</h2>
+        <p>
+            <!-- CHANGE THIS TEXT TO YOUR TOPIC -->
+            This section explains the main topic of my presentation.
+            You can write about technology, business, education, or any topic given by your lecturer.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>Why This Topic Is Important</h2>
+        <p>
+            This topic is important because it helps people understand modern digital solutions
+            and how technology is changing the world today.
+        </p>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="card">
+        <h2>Contact</h2>
+        <p>Name: Agbodike Ifechukwu</p>
+        <p>Course: ____________________</p>
+        <p>Institution: ____________________</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 | School Presentation Website</p>
+</footer>
+
+</body>
+</html>
